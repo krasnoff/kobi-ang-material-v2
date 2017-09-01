@@ -1,0 +1,74 @@
+.example-spacer
+{
+    flex: 1 1 auto;
+}
+
+.mat-toolbar
+{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.search-button, .search-close-button
+{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.txtSearchCity
+{
+    background-color: transparent;
+    color:white;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+.mainController
+{
+  padding-bottom: 20px;
+  height: 1210px !important;
+}
+
+div.mainScreen
+{
+    margin: 10px 10px 10px 10px;
+}
+
+div.mainScreen > div
+{
+    margin: 10px 10px 10px 10px;
+    
+}
+
+div.mainScreen > div > .mat-card
+{
+    background-color: #e1e7f3;
+}
+
+div.mainScreen div.cityTitle
+{
+    font-weight: 700;
+}
+
+div.mainScreen div.cityDesc
+{
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+    white-space: pre-wrap;
+}
+
+.sebm-google-map-container {
+  height: 300px;
+}
+
+div.wrap_scroller
+{
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
